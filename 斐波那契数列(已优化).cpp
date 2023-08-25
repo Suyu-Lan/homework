@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-long long a[1005]={0,1,1};
+long long a[55]={0,1,1};
 int main(){
     int n;
 	for(int i=3;i<=50;i++)
