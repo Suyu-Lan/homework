@@ -1,9 +1,9 @@
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
-long long a[95]={0,1,1};
+long long a[134]={0,1,1};
 int main(){
     int n;
-	for(int i=3;i<=50;i++)
+	for(int i=3;i<=134;i++)
 	    a[i]=a[i-1]+a[i-2]; 
 	scanf("%d",&n);
 	printf("%lld",a[n]);
